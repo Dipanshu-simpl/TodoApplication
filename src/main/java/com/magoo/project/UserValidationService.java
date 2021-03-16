@@ -1,4 +1,4 @@
-package webapp;
+package com.magoo.project;
 
 public class UserValidationService {
 	

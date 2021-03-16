@@ -1,4 +1,4 @@
-package webapp;
+package com.magoo.project;
 
 import java.io.IOException;
 
@@ -11,19 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns="/login.do")
 public class LoginServlet extends HttpServlet{
 	
-<<<<<<< HEAD
-	
-	
-	/**
-	 *  @author--- mdipanshu
-	 *  
-	 *  
-	 */
-	private static final long serialVersionUID = 1L;
-=======
 	private UserValidationService service=new UserValidationService();
 	
->>>>>>> simpleWebServletApp
 
 	@Override
 	protected void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException
