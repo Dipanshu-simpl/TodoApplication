@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome page</title>
+<title>list-todos</title>
 </head>
 <body>
-Welcome sir named ${name } and password is ${password }
+Your todos are: ${todos}
+
 </body>
 </html>

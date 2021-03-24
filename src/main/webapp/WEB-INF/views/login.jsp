@@ -7,7 +7,7 @@
 <title>Welcome Page!!!!</title>
 </head>
 <body>
-<form action="/login.do" method="post">
+<form action="/login" method="post">
 <p color ="red"><b>${errorMessage }</b></p>
 Enter your name: <input type="text" name="name"/>
 Enter the password:<input type="password" name="password"/>
