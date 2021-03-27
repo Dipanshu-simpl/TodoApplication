@@ -56,4 +56,26 @@ public class TodoService {
 		return filteredTodos;
 	}
 	
+	// Logic for updateTodo
+	
+	public Todo RetrieveTodo(int id)
+	{
+		for(Todo todo:todos)
+		{
+			if(todo.getId()==id)
+			{
+				return todo;
+			}
+		}
+		return null;
+	}
+	
+	
+	public void updateTodo(Todo todo)
+	{
+		todos.remove(todo);
+		todos.add(todo);
+	}
+	
+	
 }
