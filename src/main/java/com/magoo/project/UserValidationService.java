@@ -1,4 +1,4 @@
-package com.magoo.project;
+/*package com.magoo.project;
 
 import org.springframework.stereotype.Service;
 
@@ -14,4 +14,4 @@ public class UserValidationService {
          return false;
 	}
 
-}
+}*/

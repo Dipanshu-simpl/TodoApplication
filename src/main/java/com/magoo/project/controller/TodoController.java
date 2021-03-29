@@ -31,6 +31,7 @@ public class TodoController {
 	@RequestMapping(value="/add-todo" , method=RequestMethod.GET)
 	public String addNewTodo(ModelMap model)
 	{
+		//throw new RuntimeException("Dummy Exception");
 		model.addAttribute("todo",new Todo(0,"in28Minutes","",new Date(),false));
 		return "todo";
 	}
